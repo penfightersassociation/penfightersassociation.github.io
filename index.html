@@ -8,7 +8,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #ffff78;
+  background-color: #ff7f00;
   position: fixed;
   top: 0;
   width: 100%;
@@ -18,15 +18,50 @@
 }
 .option a {
   display: block;
-  color: #d98f34;
+  color: #da5a00;
   padding: 22px 25px;
   text-decoration: none;
 }
 .option a:hover {
-  color: #8a5200;
+  color: #bc3c00;
 }
 .active {
-  color: #8a5200;
+  color: #bc3c00;
+  }
+body, html {
+  height: 100%;
+}
+.parallax, .parallax2 {
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+}
+.parallax {
+  background-image: url('/Users/indiralakshminarasimhan/Downloads/TheropodEncyclopediaImages/eoraptor.jpg');
+}
+.parallax2 {
+  background-image: url('/Users/indiralakshminarasimhan/Downloads/TheropodEncyclopediaImages/Sauroposeidon.jpg');
+  height: 200px
+}
+.caption {
+
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
 </style>
 </head>
 <body>
