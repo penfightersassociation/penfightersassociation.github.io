@@ -3,6 +3,7 @@
 }
 body {
   background-color: #ffd65f;
+  padding: 20px;
 }
 .nav {
   list-style-type: none;
@@ -92,6 +93,9 @@ body, html {
    background-color: white;
    padding: 20px;
    margin-top: 20px;
+   border-style: double;
+   border-color: #855500;
+   border-width: 7px;
 }
 
 /* Clear floats after the columns */
